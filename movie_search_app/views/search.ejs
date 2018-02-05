@@ -1,0 +1,14 @@
+<% include partials/header %>
+
+  <div class="movie">
+    <div class="movie-search">
+      <h1>Search OMDB For A Movie</h1>
+
+      <form action="/results" method="GET">
+        <input type="text" placeholder="enter search word" name="search">
+        <input type="submit" value="Find Movies!">
+      </form>
+    </div>
+  </div>
+
+ <% include partials/footer %>
